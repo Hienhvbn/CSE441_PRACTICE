@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Search button -->
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Search"
+        android:showAsAction="ifRoom"
+        android:contentDescription="Search icon"
+        android:orderInCategory="1"/>
+
+    <!-- Add button -->
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/ic_post"
+        android:title="Add"
+        android:showAsAction="ifRoom"
+        android:contentDescription="Add icon"
+        android:orderInCategory="2"/>
+
+</menu>
